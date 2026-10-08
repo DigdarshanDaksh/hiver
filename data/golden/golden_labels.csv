@@ -1,0 +1,201 @@
+tweet_id,intent,escalate,escalation_reason,note
+2911782,software_update_issue,False,none,
+455043,how_to_product_question,True,data_loss,erased everything
+658013,app_service_issue,False,none,
+583595,app_service_issue,True,failed_troubleshooting,"3rd day, deleted app, rebooted"
+689325,account_billing,True,account_security_or_money,suspects phone hacked
+1291153,non_english,False,none,"screen damage only, not safety"
+2152089,software_update_issue,False,none,
+457200,software_update_issue,True,failed_troubleshooting,"reinstalled OS, still dead"
+1368864,hardware_damage_safety,True,safety,battery exploded
+146650,non_english,False,none,
+92762,how_to_product_question,False,none,
+1252447,battery_charging,False,none,closing apps is not a standard-fix attempt
+2816388,software_update_issue,False,none,
+545271,software_update_issue,False,none,
+2953776,software_update_issue,False,none,
+548045,software_update_issue,False,none,
+2911720,hardware_damage_safety,True,safety,electric shock
+556017,software_update_issue,False,none,
+2815639,keyboard_i_bug,False,none,
+2964151,app_service_issue,False,none,
+2617051,battery_charging,True,failed_troubleshooting,"paid for new battery, still broken"
+145249,software_update_issue,False,none,speed-test 'smokes' is not safety
+660451,how_to_product_question,False,none,
+59227,software_update_issue,False,none,
+2805993,app_service_issue,True,data_loss,ringtones erased
+162811,how_to_product_question,False,none,
+146597,software_update_issue,True,data_loss,
+939217,app_service_issue,True,data_loss,
+1616902,feedback_other,False,none,suggestion + vent
+2955510,app_service_issue,False,none,not stated as lost
+456115,software_update_issue,False,none,
+648533,account_billing,True,failed_troubleshooting,"promised callback, repeat contact"
+552128,how_to_product_question,False,none,
+611278,battery_charging,False,none,
+552177,account_billing,False,none,
+150038,keyboard_i_bug,False,none,
+506542,software_update_issue,False,none,
+2815574,software_update_issue,False,none,
+1180124,non_english,False,none,
+598150,how_to_product_question,False,none,
+2907927,battery_charging,False,none,"hot laptop under load, hyperbole"
+157759,software_update_issue,True,failed_troubleshooting,3 tries over 3 hours
+81990,software_update_issue,True,legal_or_media,public root-password vulnerability
+2840395,app_service_issue,False,none,
+508262,hardware_damage_safety,True,safety,charger melted
+2953857,app_service_issue,False,none,
+2947069,how_to_product_question,False,none,
+480619,account_billing,True,account_security_or_money,unauthorized subscription charge
+2321173,feedback_other,False,none,
+592214,software_update_issue,False,none,
+456172,account_billing,False,none,
+92524,software_update_issue,False,none,one restart is not 'tried standard fixes'
+559079,software_update_issue,True,unclear,no content to act on
+584839,battery_charging,True,failed_troubleshooting,already visited Apple store
+642003,app_service_issue,False,none,"scam pop-up, no compromise"
+109026,software_update_issue,False,none,
+667064,software_update_issue,True,unclear,"image-only, cannot tell topic"
+2804426,account_billing,True,account_security_or_money,locked out after 3 resets
+2955430,non_english,False,none,
+552182,non_english,False,none,
+2717722,hardware_damage_safety,False,none,
+2871681,hardware_damage_safety,False,none,
+588149,app_service_issue,False,none,
+2860059,software_update_issue,False,none,
+2845709,software_update_issue,False,none,
+542324,feedback_other,False,none,typo report
+620134,battery_charging,False,none,
+451368,software_update_issue,True,unclear,image-only
+686868,software_update_issue,False,none,
+695348,battery_charging,False,none,
+2872578,battery_charging,False,none,
+493604,software_update_issue,True,data_loss,corrupted file
+2943301,non_english,True,data_loss,contacts deleted (escalation applies regardless of language)
+2834473,how_to_product_question,False,none,
+1252437,software_update_issue,False,none,
+124426,software_update_issue,False,none,
+2831842,app_service_issue,True,data_loss,contacts deleted
+462052,how_to_product_question,False,none,
+2966643,how_to_product_question,False,none,
+84251,app_service_issue,True,data_loss,contacts deleted
+2683412,keyboard_i_bug,True,failed_troubleshooting,I.T variant; text replacement tried 5x
+460827,software_update_issue,True,failed_troubleshooting,unresolved over months of updates
+463945,how_to_product_question,False,none,
+148222,account_billing,False,none,
+617132,app_service_issue,False,none,
+2960144,software_update_issue,False,none,
+94893,hardware_damage_safety,True,data_loss,lost everything
+552130,battery_charging,False,none,
+652993,software_update_issue,False,none,
+629700,how_to_product_question,False,none,
+587048,non_english,True,failed_troubleshooting,"two AppleCare visits, same fault"
+666260,app_service_issue,False,none,
+154434,app_service_issue,False,none,
+542482,how_to_product_question,False,none,
+2890687,account_billing,False,none,card check during password change; standard answer
+2853861,software_update_issue,True,failed_troubleshooting,tried instructions all day
+448359,app_service_issue,False,none,
+451370,account_billing,True,account_security_or_money,account recovery lockout
+667038,battery_charging,False,none,
+483278,software_update_issue,True,unclear,image-only
+2948206,software_update_issue,True,unclear,image-only
+556165,non_english,True,failed_troubleshooting,waiting on existing case
+14231,software_update_issue,False,none,
+599114,hardware_damage_safety,True,safety,smoke and burning smell
+2152149,how_to_product_question,False,none,
+2967881,hardware_damage_safety,False,none,
+1407469,keyboard_i_bug,False,none,
+2920075,software_update_issue,False,none,
+619460,non_english,False,none,
+2838628,app_service_issue,True,data_loss,music deleted
+631811,battery_charging,False,none,
+2751539,software_update_issue,False,none,
+701723,battery_charging,False,none,
+327309,software_update_issue,False,none,
+2852336,account_billing,True,account_security_or_money,refund request
+2291542,non_english,False,none,
+2801515,software_update_issue,False,none,
+554797,software_update_issue,True,failed_troubleshooting,forced reboot + reset
+161289,battery_charging,False,none,
+2247112,software_update_issue,False,none,
+2834452,battery_charging,False,none,
+2967837,battery_charging,False,none,
+2948298,keyboard_i_bug,False,none,
+1327377,software_update_issue,False,none,
+2837207,hardware_damage_safety,True,account_security_or_money,demands replacement for defective 3-day-old phone
+545273,software_update_issue,False,none,
+686889,battery_charging,True,safety,too hot to hold while charging
+552082,software_update_issue,False,none,
+512584,software_update_issue,False,none,
+2840389,how_to_product_question,False,none,
+641935,hardware_damage_safety,False,none,"hair pulling, not injury"
+2971282,software_update_issue,False,none,
+593527,account_billing,False,none,
+642008,feedback_other,False,none,
+2942144,keyboard_i_bug,True,failed_troubleshooting,text replacement does not work
+654458,account_billing,True,failed_troubleshooting,ignored follow-ups on goodwill case
+2915922,software_update_issue,True,legal_or_media,public security mockery
+629786,app_service_issue,True,data_loss,
+86983,battery_charging,False,none,
+152951,feedback_other,True,failed_troubleshooting,dropped support call
+2915919,feedback_other,False,none,'me too' reply
+2472951,feedback_other,False,none,
+486146,hardware_damage_safety,True,safety,swelling battery
+646850,how_to_product_question,False,none,
+2947120,app_service_issue,True,data_loss,repeat contact loss too
+552232,app_service_issue,False,none,
+1252451,software_update_issue,True,failed_troubleshooting,cleared cache
+659501,keyboard_i_bug,False,none,I.T variant
+181442,app_service_issue,False,none,
+2801501,feedback_other,False,none,generic iOS 11 complaint
+646801,keyboard_i_bug,True,failed_troubleshooting,"deleted shortcut, still happening"
+1762817,battery_charging,False,none,
+685796,app_service_issue,True,data_loss,
+595813,account_billing,True,account_security_or_money,account access failure
+2915934,app_service_issue,True,data_loss,photo library lost
+448345,non_english,False,none,
+514773,software_update_issue,False,none,
+564032,hardware_damage_safety,True,safety,device on fire
+2972508,battery_charging,False,none,
+2291574,software_update_issue,False,none,
+97093,software_update_issue,False,none,
+483189,software_update_issue,True,failed_troubleshooting,"months, 3 updates, resets"
+143548,software_update_issue,False,none,
+556013,hardware_damage_safety,False,none,"DOA screen, asks for help"
+151527,software_update_issue,False,none,
+513650,how_to_product_question,False,none,delivery issue
+550747,hardware_damage_safety,False,none,
+567627,software_update_issue,True,failed_troubleshooting,"installed update, still happening"
+550680,feedback_other,False,none,
+23100,account_billing,True,account_security_or_money,overcharged repeatedly
+172949,app_service_issue,False,none,
+602367,software_update_issue,False,none,
+2843853,battery_charging,False,none,
+617119,how_to_product_question,False,none,
+2379290,app_service_issue,True,data_loss,
+149986,software_update_issue,False,none,
+498633,account_billing,True,account_security_or_money,refund request
+2831730,software_update_issue,True,unclear,image-only
+701579,non_english,False,none,
+2944540,battery_charging,False,none,
+92711,software_update_issue,True,failed_troubleshooting,'tried everything'
+97072,account_billing,True,failed_troubleshooting,tried sign-out and password change
+22988,account_billing,False,none,
+1049036,app_service_issue,True,data_loss,past photo loss
+101290,software_update_issue,False,none,
+2831805,battery_charging,False,none,
+552198,software_update_issue,False,none,
+652923,hardware_damage_safety,False,none,
+2945654,non_english,False,none,
+2913300,software_update_issue,True,failed_troubleshooting,tried everything Apple advised
+541141,software_update_issue,False,none,
+662837,hardware_damage_safety,True,safety,electric shock (joke about suing)
+2961401,account_billing,False,none,
+523866,software_update_issue,False,none,
+554775,account_billing,True,account_security_or_money,disputed charge
+481835,software_update_issue,False,none,
+157807,how_to_product_question,False,none,
+513632,battery_charging,False,none,
+146644,software_update_issue,False,none,
+686908,software_update_issue,True,unclear,image-only
