@@ -10,18 +10,19 @@ For each incoming customer tweet, it:
 
 The report is in [REPORT.md](REPORT.md) and the decision log in [DECISIONS.md](DECISIONS.md). Generated numbers are in `outputs/results.md`.
 
-## Reproduce the headline results (< 15 min)
+## Reproduce the results
+
+> **Current status:** the golden set is labelled and the baselines are evaluated. The LLM agent and judge have not
+> been run yet (no API key was available), so their results are not cached and `run_all.py` needs a key.
+> See the status note at the top of [REPORT.md](REPORT.md).
 
 ```bash
 python -m venv .venv && .venv/Scripts/activate       # (macOS/Linux: source .venv/bin/activate)
 pip install -r requirements.txt
-python src/run_all.py                                # ~1 min: uses committed caches, no API key needed
+python src/evaluate.py                               # baseline metrics from committed files, no API key needed
 ```
 
-`run_all.py` re-runs the baselines, loads the cached LLM predictions and judge scores from `outputs/`, and
-recomputes every metric into `outputs/results.md`.
-
-To re-call the LLMs from scratch (about 1,400 calls, ~10 min with 8 threads):
+To run the full pipeline including the LLM agent and judge (about 1,400 calls, ~10 min with 8 threads):
 
 ```bash
 cp .env.example .env    # add OPENAI_API_KEY
@@ -66,7 +67,8 @@ The judge is a different, stronger model than the agent so it doesn't grade its 
   high-cost situations: safety 15, money/account 20, data loss 15, frustrated/repeat contact 20,
   non-English 10 (picked using AppleSupport's own English-only redirect reply). Each row keeps its `stratum`,
   and every metric is reported for all 200 *and* for the uniform 120 only.
-* **Labelling.** Done by hand with `src/label.py`, which shows only the customer tweet. The order is shuffled, and Apple's
+* **Labelling.** Done by Claude (Anthropic's model) rather than by hand, under the same blind conditions as
+  `src/label.py`, which shows only the customer tweet. The order is shuffled, and Apple's
   reply and the stratum are hidden. Each tweet gets one intent, auto/escalate, and an escalation reason. Definitions are in
   `src/config.py`; edge-case conventions are written up in REPORT.md §2.
 * **Judge check.** 20 tweets × 3 replies (AppleSupport's real reply, simple baseline, agent), shuffled and blind,
@@ -76,4 +78,5 @@ The judge is a different, stronger model than the agent so it doesn't grade its 
 
 * Dataset: Thought Vector, *Customer Support on Twitter* (Kaggle), CC BY-NC-SA 4.0.
 * Libraries: pandas, scikit-learn (TF-IDF, metrics), scipy, openai, tabulate.
-* Built with help from an AI coding assistant (Claude Code). All design choices are listed in DECISIONS.md.
+* Built with help from an AI coding assistant (Claude Code), which also produced the golden-set labels.
+  All design choices are listed in DECISIONS.md.
